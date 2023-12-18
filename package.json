@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "VITE_CJS_TRACE=true vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -12,8 +12,8 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "trustauthx": "^1.0.36",
-    "react-router-dom": "^6.21.0"
+    "react-router-dom": "^6.21.0",
+    "trustauthx": "^1.0.37"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

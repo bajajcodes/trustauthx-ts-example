@@ -4,16 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "VITE_CJS_TRACE=true vite",
-    "build": "tsc && vite build",
+    "dev": "vite --debug",
+    "build": "tsc && vite build --debug",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "react-router-dom": "^6.21.0",
-    "trustauthx": "^1.0.37"
+    "react-router-dom": "^6.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

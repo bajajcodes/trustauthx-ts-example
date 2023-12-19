@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "react-router-dom": "^6.21.0"
+    "react-router-dom": "^6.21.0",
+    "trustauthx-shmbajaj": "^1.0.37"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
